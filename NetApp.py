@@ -14,7 +14,6 @@ app.setBg("grey")
 app.setFont("20")
 
 #runs through array to display value
-#app.addLabel("ipaddress", ipaddr)
 for y in range(0, y):
     app.addLabel(y, ipaddr[y], colspan=2)
 
